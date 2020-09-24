@@ -1,0 +1,315 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+* {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    min-height: 550px;
+    max-height: 780px;
+    background-color: #40dbc4;
+}
+
+footer {
+    background-color: #40dbc4;
+}
+
+footer h3 {
+    color: white;
+}
+
+.top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 0px !important;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent !important;
+    color: black;
+    cursor: pointer;
+    padding: 0;
+    font-size: 50px;
+    color: #1d4d46 !important;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+/* Rules for sizing the icon. */
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+
+/* Rules for using icons as black on a light background. */
+
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+
+/* Rules for using icons as white on a dark background. */
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+hr {
+    font-weight: bold !important;
+    color: black;
+}
+
+.perfil {
+    margin-top: 100px;
+}
+
+.perfiltitle {
+    margin-top: 40px;
+}
+
+.perfilbtn {
+    margin-top: 50px;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    header {
+        height: 780px;
+    }
+    .titulo {
+        font-size: 40px !important;
+        font-weight: 900 !important;
+    }
+    .subtitulo {
+        font-size: 35px !important;
+        font-weight: 800 !important;
+    }
+    h1 {
+        font-size: 1.8rem !important;
+    }
+    h2 {
+        font-size: 1.6rem !important;
+    }
+    h3 {
+        font-size: 1.4rem !important;
+    }
+    .sociales li a {
+        font-size: 30px!important;
+        text-align: center!important;
+        color: #AD977B !important;
+        padding: 10px!important;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header {
+        height: 760px;
+    }
+    .titulo {
+        font-size: 35px !important;
+        font-weight: 900 !important;
+    }
+    .subtitulo {
+        font-size: 30px !important;
+        font-weight: 800 !important;
+    }
+    h1 {
+        font-size: 1.8rem !important;
+    }
+    h2 {
+        font-size: 1.6rem !important;
+    }
+    h3 {
+        font-size: 1.4rem !important;
+    }
+    .sociales li a {
+        font-size: 28px !important;
+        text-align: center !important;
+        color: #AD977B !important;
+        padding: 10px !important;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        height: 750px;
+    }
+    .titulo {
+        font-size: 33px !important;
+        font-weight: 900 !important;
+    }
+    .subtitulo {
+        font-size: 30px !important;
+        font-weight: 800 !important;
+    }
+    h1 {
+        font-size: 1.7rem !important;
+    }
+    h2 {
+        font-size: 1.5rem !important;
+    }
+    h3 {
+        font-size: 1.3rem !important;
+    }
+    .sociales li a {
+        font-size: 28px !important;
+        text-align: center !important;
+        color: #AD977B !important;
+        padding: 10px !important;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        height: 750px;
+    }
+    .titulo {
+        font-size: 24px !important;
+        font-weight: 900 !important;
+    }
+    .subtitulo {
+        font-size: 26px !important;
+        font-weight: 800 !important;
+    }
+    h1 {
+        font-size: 1.6rem !important;
+    }
+    h2 {
+        font-size: 1.4rem !important;
+    }
+    h3 {
+        font-size: 1.3rem !important;
+    }
+    .sociales li a {
+        font-size: 26px !important;
+        text-align: center !important;
+        color: #AD977B !important;
+        padding: 10px !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 575.98px) {
+    header {
+        height: 750px;
+    }
+    .titulo {
+        font-size: 20px !important;
+        font-weight: 900 !important;
+    }
+    .subtitulo {
+        font-size: 20px !important;
+        font-weight: 800 !important;
+    }
+    h1 {
+        font-size: 1.5rem !important;
+    }
+    h2 {
+        font-size: 1.3rem !important;
+    }
+    h3 {
+        font-size: 1.2rem !important;
+    }
+    .sociales li a {
+        font-size: 24px !important;
+        text-align: center !important;
+        color: #AD977B !important;
+        padding: 10px !important;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 375.98px) {
+    header {
+        height: 600px;
+    }
+    .titulo {
+        font-size: 20px !important;
+        font-weight: 900 !important;
+    }
+    .subtitulo {
+        font-size: 20px !important;
+        font-weight: 800 !important;
+    }
+    .perfiltitle {
+        margin-top: 20px;
+    }
+    .perfilbtn {
+        margin-top: 20px;
+    }
+    .material-icons.md-48 {
+        font-size: 36px;
+    }
+    h1 {
+        font-size: 1.5rem !important;
+    }
+    h2,
+    h3 {
+        font-size: 1.2rem !important;
+    }
+    .sociales li a {
+        font-size: 22px !important;
+        text-align: center !important;
+        color: #AD977B !important;
+        padding: 6px !important;
+    }
+}
