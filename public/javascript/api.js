@@ -1,11 +1,16 @@
 let btnContent = document.querySelector(".btntoContent");
 let topButton = document.querySelector(".top");
+let copyCustomSpan = document.querySelector(".year");
+let currentYear = new Date().getFullYear();
+
+
 let fecha = calculate_age(new Date(1990, 10, 24));
 
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 });
 
+copyCustomSpan.innerText = currentYear;
 btnContent.addEventListener("click", () => {
     $('html, body').animate({
         scrollTop: $(".educacion").offset().top - 50
@@ -26,8 +31,8 @@ topButton.addEventListener("click", () => {
     }, 2000);
 });
 
-function calculate_age(dob) {
-    let diff_ms = Date.now() - dob.getTime();
+function calculate_age(p_Fecha) {
+    let diff_ms = Date.now() - p_Fecha.getTime();
     let age_dt = new Date(diff_ms);
 
     return Math.abs(age_dt.getUTCFullYear() - 1970);
