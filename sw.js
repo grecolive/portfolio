@@ -1,4 +1,4 @@
-const CACHE_NAME = 'v1_cache_programador_fitness',
+const CACHE_NAME = 'v1_cache_gregory_santos_portfolio',
   urlsToCache = [
     './',
     'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css',
