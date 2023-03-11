@@ -37,7 +37,7 @@ function calculate_age(p_Fecha) {
 
     return Math.abs(age_dt.getUTCFullYear() - 1970);
 }
-document.querySelector('.age').innerHTML = fecha;
+//document.querySelector('.age').innerHTML = fecha;
 
   
 if ('serviceWorker' in navigator) {
