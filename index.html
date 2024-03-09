@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-DO">
-
+<html lang="es-DO" data-bs-theme="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,175 +27,155 @@
     <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon-16x16.png">
     <link rel="manifest" href="manifest.json">
-    <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="public/css/custom.css">
     <link crossorigin="anonymous" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12 perfil">
-                    <img class="img-fluid rounded-circle" width="250" height="250" src="https://media-exp1.licdn.com/dms/image/C4E03AQHMiiSYHX5LJg/profile-displayphoto-shrink_800_800/0/1663777324091?e=2147483647&v=beta&t=Z1HhZtv4ZJ-W71i9b7Pp5PPTR8q-KoSUknr-bdgsM50" alt="foto gregory santos">
+    <header class="pb-5">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHMiiSYHX5LJg/profile-displayphoto-shrink_800_800/0/1663777324091?e=2147483647&v=beta&t=Z1HhZtv4ZJ-W71i9b7Pp5PPTR8q-KoSUknr-bdgsM50" width="30" height="30" class="img-fluid rounded-circle" alt="Logo de Gregory Santos">
+                    Gregory Santos
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experience">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="education">Education</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-12 text-center perfiltitle">
-                    <h1 class="font-weight-bold titulo mb-3">GREGORY ANTONIO SANTOS MARTÍNEZ</h1>
-                    <hr class="my-3">
-                    <h2 class="font-weight-bold sub-titulo my-3">PROGRAMADOR FULL STACK</h2>
-                    <a class="btn btn-sm btn-outline-success" download="curriculum-gregory-santos.pdf" href="./public/pdf/cv-gregory-santos.pdf">DESCARGAR CV</a>
+                <div class="dropdown open" data-bs-theme="dark">
+                    <button
+                        title="Cambiar el tema de la página"
+                        class="btn btn-transparent dropdown-toggle"
+                        type="button"
+                        id="triggerId"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/>
+                      </svg>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="triggerId">
+                        <button type="button" class="dropdown-item active" data-bs-theme-value="light">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+                                <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+                              </svg>
+                            Light Mode
+                        </button>
+                        <button type="button" class="dropdown-item" data-bs-theme-value="dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+                                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                                <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+                            </svg>
+                            Dark Mode
+                        </button>
+                        <button type="button" class="dropdown-item" data-bs-theme-value="auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/>
+                              </svg>
+                            Auto Mode
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 text-center perfilbtn">
-                    <button type="button" data-toggle="tooltip" data-placement="top" title="!Click Me¡" class="btntoContent btn btn-lg btn-secondary rounded-circle text-center"><i class="material-icons md-48">details</i></button>
-                </div>
-            </div>
-        </div>
+        </nav>
     </header>
-    <main>
-        <section class="pt-5">
-            <article class="container">
-                <div class="row mb-5">
-                    <div class="col-12 educacion">
-                        <div class="card d-block shadow border-0 rounded">
-                            <div class="card-body text-center">
-                                <p class="lead">Mi éxito personal y profesional se enfoca en perseverar y mi objetivo es mejorar la vida de mi familia, apoyado en la capacitación persistente centrada en la autocorrección y la contribución, al mismo tiempo conservar mis valores e iniciativa personales.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <main class="container min-vh-100">
+        <section id="home" class="my-5">
+            <article>
                 <div class="row">
-                    <div class="col-12">
-                        <div class="card d-block shadow border-0 rounded">
-                            <div class="card-header text-center">
-                                <i class="material-icons md-48">school</i>
-                                <h2 class="font-weight-bold">EDUCACIÓN</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul class="list-group shadow text-center">
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">LICENCIATURA EN INFORMÁTICA</h3>
-                                <p class="list-group-item-text">Universidad Autónoma de Santo Domingo UASD</p>
-                                <p class="list-group-item-text small">2015 - presente</p>
-                            </li>
-                        </ul>
+                    <div class="col-md-10 offset-md-1">
+                        <h1 class="text-center h2">¡Hola! 👋 soy Gregory Antonio Santos Martínez 👨‍💻</h1>
+                        <p style="letter-spacing: .1rem;" class="lead lh-sm tracking-wide">Desarrollador de software con más de 5 años de experiencia, comprometido con la innovación y la excelencia en la entrega de soluciones tecnológicas. Reconocido por mi capacidad para interpretar y satisfacer necesidades complejas son la base de mi enfoque colaborativo, aportando una visión analítica y estratégica en el desarrollo de proyectos. Mi enfoque se centra en entender profundamente las necesidades del proyecto y del equipo, asegurando que cada solución no solo cumpla con los requisitos técnicos, sino que sea robusta y escalable. Además, que fomente el crecimiento y la eficiencia dentro de la organización.</p>
                     </div>
                 </div>
             </article>
         </section>
-      <!--   <section class="py-5">
-            <article class="container">
-                <div class="row mb-2">
-                    <div class="col-12">
-                        <div class="card d-block shadow border-0 rounded">
-                            <div class="card-header text-center">
-                                <i class="material-icons md-48">more</i>
-                                <h2 class="font-weight-bold">HABILIDADES</h2>
+        <section id="experience" class="my-5">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <header>
+                        <h2>EXPERIENCIA LABORAL</h2>
+                    </header>
+                    <article class="card d-block shadow-lg border-0 rounded mb-2">
+                        <div class="card-body"> 
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>JOB ORGANIZATION</h3>
+                                <img class="img-fluid rounded img-thumbnail" src="https://www.metxi.net/Metxi/src/resources/images/isfodosu_logo.png" alt="Logo isfodosu" width="50" height="50">
+                            </div>
+                           
+                           <h5>role</h5>
+                           <h5>role</h5>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt, odit expedita labore iusto voluptate velit excepturi sed ullam? A aliquid modi nam enim optio dolore ratione excepturi doloribus distinctio!</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="my-5">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <header>
+                        <h2>EDUCACIÓN</h2>
+                    </header>
+                    <article class="card d-block shadow-lg border-0 rounded-4 mb-2 border-start border-info-subtle">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3>JOB ORGANIZATION</h3>
+                                <img class="img-fluid rounded-4 shadow img-thumbnail border-0" src="https://www.metxi.net/Metxi/src/resources/images/isfodosu_logo.png" alt="Logo isfodosu" width="50" height="50">
+                            </div>
+                           
+                           <h5>role</h5>
+                           <h5>role</h5>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt, odit expedita labore iusto voluptate velit excepturi sed ullam? A aliquid modi nam enim optio dolore ratione excepturi doloribus distinctio!</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="my-5">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <header>
+                        <h2>SOBRE MÍ</h2>
+                    </header>
+                    <article class="card d-block shadow-lg border-0 border-bottom border-info-subtle rounded-4 mb-2">
+                        <div class="card-body d-flex justify-content-between align-items-center gap-3">
+                            <div>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil facere nemo quos iusto minima obcaecati amet modi deserunt. Voluptas, ex nostrum magni necessitatibus numquam distinctio in omnis enim odit rerum?</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil facere nemo quos iusto minima obcaecati amet modi deserunt. Voluptas, ex nostrum magni necessitatibus numquam distinctio in omnis enim odit rerum?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt, odit expedita labore iusto voluptate velit excepturi sed ullam? A aliquid modi nam enim optio dolore ratione excepturi doloribus distinctio!</p>
+                            </div>
+                            <div>
+                                <img class="img-fluid rounded-circle shadow img-thumbnail border-0" src="https://www.metxi.net/Metxi/src/resources/images/isfodosu_logo.png" alt="Logo isfodosu" width="300" height="300">
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul class="list-group shadow text-center">
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">HTML</h3>
-                            </li>
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">CSS - BOOTSTRAP - MATERIALIZECSS</h3>
-                            </li>
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">JAVASCRIPT - JQUERY</h3>
-                            </li>
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">PHP - C++ - C#</h3>
-                            </li>
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">SQL - My SQL</h3>
-                            </li>
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">ON-PAGE SEO - TECHNICAL SEO - OFF-PAGE SEO</h3>
-                            </li>
-                            <li class="list-group-item">
-                                <h3 class="list-group-item-heading">Open Journal System</h3>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-        </section> -->
-        <section class="py-5">
-            <article class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card d-block shadow border-0 rounded">
-                            <div class="card-header text-center">
-                                <h2 class="font-weight-bold">EXPERIENCIA</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <h2>- REVISTA CARIBEÑA DE INVESTIGACIÓN EDUCATIVA (RECIE)</h2>
-                                <p>Diseño a la medida y actualización del sistema OJS de la versión 3.2.0.1 a la versión 3.3.0.11 con estos trabajos el portal obtuvo mejora del rendimiento, SEO y buenas practicas. visite
-                                    <a rel="noopener noreferrer nofollow" target="_blank" href="https://revistas.isfodosu.edu.do">revistas.isfodosu.edu.do</a></p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- CONGRESO CARIBEÑO DE INVESTIGACIÓN EDUCATIVA (CCIE)</h2>
-                                <p>Diseño a la medida y actualización a la versión más reciente del OJS hasta ese momento 3.3.0.9 del 3er. Congreso Caribeño de Investigación Educativa (CCIE). visite <a rel="noopener noreferrer nofollow" target="_blank" href="https://congresos.isfodosu.edu.do">congresos.isfodosu.edu.do</a></p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- REVISTA DE INVESTIGACIÓN Y EVALUACIÓN EDUCATIVA (REVIE)</h2>
-                                <p>Diseño de plantilla HTML para los artículos de la Revista de Investigación y Evaluación Educativa (Revie)  <a rel="noopener noreferrer nofollow" target="_blank" href="https://revie.gob.do">revie.gob.do</a></p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- REVISTA DE INVESTIGACIÓN Y EVALUACIÓN EDUCATIVA (REVIE)</h2>
-                                <p>Soporte Informático en la Revista de Investigación y Evaluación Educativa (Revie)  <a rel="noopener noreferrer nofollow" target="_blank" href="https://revie.gob.do">revie.gob.do</a></p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- ON-PAGE, TECHNICAL SEO</h2>
-                                <p>En el portal del instituto dominicano de evaluación e investigación de la calidad educativa - IDEICE
-                                    <a rel="noopener noreferrer nofollow" target="_blank" href="https://ideice.gob.do">ideice.gob.do</a>
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- OBSERVATORIO DE POLÍTICAS EDUCATIVAS DE LA REPÚBLICA DOMINICANA</h2>
-                                <p>Desarrollo hecho a la medida del website <a rel="noopener noreferrer nofollow" target="_blank" href="https://operd.gob.do">operd.gob.do</a></p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- INTRANET IDEICE</h2>
-                                <p>Desarrollo de la intranet del instituto dominicano de evaluación e investigación de la calidad educativa - IDEICE
-                                    <a rel="noopener noreferrer nofollow" target="_blank" href="https://ideice.gob.do/intranet">INTRANET IDEICE</a>
-                                </p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- PLATAFORMAS PARA REGISTRO DE VISITANTES</h2>
-                                <p>Desarrollo de la plataforma para registro de visitante esta se encuentra en el repositorio de software del estado de la república dominicano</p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- DESARROLLO DE APLICACIÓN WEB</h2>
-                                <p>Desarrollo de la plataforma para evaluar el primer año de gestión a los directores regionales y distritales para el Ministerio de Educación de la República Dominicana y instituto dominicano de evaluación e investigación
-                                    de la calidad educativa - IDEICE</p>
-                            </li>
-                            <li class="list-group-item">
-                                <h2>- DESARROLLO APLICACIÓN ESCRITORIO</h2>
-                                <p>Aplicación desarrollo en C# para consultar los resultados obtenidos por los docentes en el Evaluación del Desempeño Docente 2017 - EDD2017</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
+            </div>
         </section>
     </main>
     <footer>
-        <a href="#" data-toggle="tooltip" data-placement="left" title="Back to Top" class="top"><i class="material-icons md-48">navigation</i></a>
+        <button type="button" data-bs-toggle="tooltip" data-placement="left" title="Back to Top" class="top">☝</button>
         <section class="py-2 bg-info">
             <div class="container">
                 <div class="row">
@@ -217,7 +196,7 @@
                 </div>
             </div>
         </section>
-        <section class="py-5">
+        <section class="py-5 bg-dark text-white">
             <article class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-3 text-center">
@@ -226,15 +205,15 @@
                         <p style="cursor: pointer;" class="mailgo" data-tel="+18098488801" data-telegram="telegram">+1 809-848-8801</p>
                     </div>
                     <div class="col-12 text-center">
-                        <p><span class="year"></span> &copy Gregory Santos - Todos los Derechos Reservados</p>
+                        <p>&copy<span class="year"></span> Gregory Santos - Todos los Derechos Reservados</p>
                     </div>
                 </div>
             </article>
         </section>
     </footer>
-    <script defer crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
-    <script src="public/javascript/api.js"></script>
-    <script src="public/javascript/mailgo.min.js"></script>
+    <script defer crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script defer src="public/javascript/api.js"></script>
+    <script defer src="public/javascript/mailgo.min.js"></script>
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -254,7 +233,7 @@
           "image": "https://media-exp1.licdn.com/dms/image/C4E03AQHMiiSYHX5LJg/profile-displayphoto-shrink_800_800/0/1663777324091?e=2147483647&v=beta&t=Z1HhZtv4ZJ-W71i9b7Pp5PPTR8q-KoSUknr-bdgsM50",
           "jobTitle": "Desarrollador",
           "name": "Gregory Antonio Santos Martínez",
-          "telephone": "(829) 420-1634",
+          "telephone": "+18098488801",
           "url": "https://grecolive.github.io/portfolio/"
         }
         </script>
