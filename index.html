@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Siempre busco ser mejor que ayer y mañana mejor que hoy, aprender todos los días y sentir ganas de que hoy exista algo para alimentar mi conocimiento. Se puede lograr cualquier objetivo siempre que se disfrute de su mejora sin dañar a los demás, teniendo en cuenta que el beneficio común es más importante que los intereses individuales.">
-    <meta name="keywords" content="Developer full stack, php Developer, Jquery Developer, C# Developer, MATERIALIZE CSS, BOOTSTRAP CSS">
+    <meta name="description" content="Soy un profesional autodidacta con una profunda pasión por la tecnología y la programación. Desde muy joven, con recursos limitados, me sumergí en el mundo de la informática. Mi primer encuentro con la programación fue a través de un juego llamado Helbreath, que despertó en mí un interés insaciable por crear soluciones tecnológicas.">
+    <meta name="keywords" content="Developer full stack, PHP, JavaScript, Jquery, C# , MATERIALIZE CSS, BOOTSTRAP">
     <meta name="language" content="es-DO">
     <meta name="author" content="Gregory Antonio Santos Martínez">
     <meta name="copyright" content="Gregory Antonio Santos Martínez Todos los derechos reservados &copy 2021">
@@ -15,8 +15,8 @@
     <meta name="twitter:creator" content="@grecolivem">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Gregory Antonio Santos Martínez Portfolio">
-    <meta property="og:description" content="Siempre busco ser mejor que ayer y mañana mejor que hoy, aprender todos los días y sentir ganas de que hoy exista algo para alimentar mi conocimiento. Se puede lograr cualquier objetivo siempre que se disfrute de su mejora sin dañar a los demás, teniendo en cuenta que el beneficio común es más importante que los intereses individuales.">
-    <meta property="og:image" content="https://media-exp1.licdn.com/dms/image/C4E03AQHMiiSYHX5LJg/profile-displayphoto-shrink_800_800/0/1663777324091?e=2147483647&v=beta&t=Z1HhZtv4ZJ-W71i9b7Pp5PPTR8q-KoSUknr-bdgsM50">
+    <meta property="og:description" content="Soy un profesional autodidacta con una profunda pasión por la tecnología y la programación. Desde muy joven, con recursos limitados, me sumergí en el mundo de la informática. Mi primer encuentro con la programación fue a través de un juego llamado Helbreath, que despertó en mí un interés insaciable por crear soluciones tecnológicas.">
+    <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4E03AQGqAjvTmJFNpw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728168642175?e=1733356800&v=beta&t=DXpFxvJ2m8-fwjfupE11ozTeVYfYvinXOywjTeeCO2o">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
     <meta property="og:locale" content="es-DO">
@@ -32,10 +32,10 @@
 </head>
 <body>
     <header class="pb-5">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg shadow-lg border-0 border-bottom border-warning-subtle">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHMiiSYHX5LJg/profile-displayphoto-shrink_800_800/0/1663777324091?e=2147483647&v=beta&t=Z1HhZtv4ZJ-W71i9b7Pp5PPTR8q-KoSUknr-bdgsM50" width="30" height="30" class="img-fluid rounded-circle" alt="Logo de Gregory Santos">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E03AQGqAjvTmJFNpw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728168642175?e=1733356800&v=beta&t=DXpFxvJ2m8-fwjfupE11ozTeVYfYvinXOywjTeeCO2o" width="30" height="30" class="img-fluid rounded-circle" alt="Logo de Gregory Santos">
                     Gregory Santos
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,16 +47,13 @@
                             <a class="nav-link" aria-current="page" href="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about">About Me</a>
+                            <a class="nav-link" href="about">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="experience">Work</a>
+                            <a class="nav-link" href="experience">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="home">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="education">Education</a>
+                            <a class="nav-link" href="education">Educación</a>
                         </li>
                     </ul>
                 </div>
@@ -104,69 +101,45 @@
             <article>
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
-                        <h1 class="text-center h2">¡Hola! 👋 soy Gregory Antonio Santos Martínez 👨‍💻</h1>
-                        <p style="letter-spacing: .1rem;" class="lead lh-sm tracking-wide">Desarrollador de software con más de 5 años de experiencia, comprometido con la innovación y la excelencia en la entrega de soluciones tecnológicas. Reconocido por mi capacidad para interpretar y satisfacer necesidades complejas son la base de mi enfoque colaborativo, aportando una visión analítica y estratégica en el desarrollo de proyectos. Mi enfoque se centra en entender profundamente las necesidades del proyecto y del equipo, asegurando que cada solución no solo cumpla con los requisitos técnicos, sino que sea robusta y escalable. Además, que fomente el crecimiento y la eficiencia dentro de la organización.</p>
+                        <h1 class="text-center h2">¡Hola! 👋 soy <span id="name"></span> 👨‍💻</h1>
+                        <p id="summary" style="letter-spacing: .1rem;" class="lead lh-sm tracking-wide"></p>
                     </div>
+                    <div id="technologies" class="col-md-10 offset-md-1"></div>
                 </div>
             </article>
         </section>
+     
         <section id="experience" class="my-5">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <header>
-                        <h2>EXPERIENCIA LABORAL</h2>
+                <div class="col-12 col-md-10 offset-md-1">
+                    <header class="mb-2">
+                        <h2>EXPERIENCIA</h2>
                     </header>
-                    <article class="card d-block shadow-lg border-0 rounded mb-2">
-                        <div class="card-body"> 
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h3>JOB ORGANIZATION</h3>
-                                <img class="img-fluid rounded img-thumbnail" src="https://www.metxi.net/Metxi/src/resources/images/isfodosu_logo.png" alt="Logo isfodosu" width="50" height="50">
-                            </div>
-                           
-                           <h5>role</h5>
-                           <h5>role</h5>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt, odit expedita labore iusto voluptate velit excepturi sed ullam? A aliquid modi nam enim optio dolore ratione excepturi doloribus distinctio!</p>
-                        </div>
-                    </article>
                 </div>
             </div>
         </section>
         <section id="education" class="my-5">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <header>
+                <div class="col-12 col-md-10 offset-md-1">
+                    <header class="mb-2">
                         <h2>EDUCACIÓN</h2>
                     </header>
-                    <article class="card d-block shadow-lg border-0 rounded-4 mb-2 border-start border-info-subtle">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h3>JOB ORGANIZATION</h3>
-                                <img class="img-fluid rounded-4 shadow img-thumbnail border-0" src="https://www.metxi.net/Metxi/src/resources/images/isfodosu_logo.png" alt="Logo isfodosu" width="50" height="50">
-                            </div>
-                           
-                           <h5>role</h5>
-                           <h5>role</h5>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt, odit expedita labore iusto voluptate velit excepturi sed ullam? A aliquid modi nam enim optio dolore ratione excepturi doloribus distinctio!</p>
-                        </div>
-                    </article>
                 </div>
             </div>
         </section>
         <section id="about" class="my-5">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <header>
+                <div class="col-12 col-md-10 offset-md-1">
+                    <header class="mb-2">
                         <h2>SOBRE MÍ</h2>
                     </header>
-                    <article class="card d-block shadow-lg border-0 border-bottom border-info-subtle rounded-4 mb-2">
+                    <article class="card d-block shadow-lg border-0 border-bottom border-warning-subtle rounded-4 mb-2">
                         <div class="card-body d-flex justify-content-between align-items-center gap-3">
                             <div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil facere nemo quos iusto minima obcaecati amet modi deserunt. Voluptas, ex nostrum magni necessitatibus numquam distinctio in omnis enim odit rerum?</p>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil facere nemo quos iusto minima obcaecati amet modi deserunt. Voluptas, ex nostrum magni necessitatibus numquam distinctio in omnis enim odit rerum?</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt, odit expedita labore iusto voluptate velit excepturi sed ullam? A aliquid modi nam enim optio dolore ratione excepturi doloribus distinctio!</p>
+                                <p id="about-text"></p>
                             </div>
                             <div>
-                                <img class="img-fluid rounded-circle shadow img-thumbnail border-0" src="https://www.metxi.net/Metxi/src/resources/images/isfodosu_logo.png" alt="Logo isfodosu" width="300" height="300">
+                                <img id="photo" class="img-fluid rounded-circle shadow img-thumbnail border-0" width="450" src="https://media.licdn.com/dms/image/v2/D4E03AQGqAjvTmJFNpw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728168642175?e=1733356800&v=beta&t=DXpFxvJ2m8-fwjfupE11ozTeVYfYvinXOywjTeeCO2o" alt="Logo isfodosu">
                             </div>
                         </div>
                     </article>
@@ -181,17 +154,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h3 class="text-center">Redes Sociales</h3>
-                        <ul class="list-unstyled d-flex justify-content-center">
-                            <li class="d-inline px-1">
-                                <a class="text-decoration-none text-white" rel="noreferrer noopener" href="https://do.linkedin.com/in/gregory-antonio-santos-mart%C3%ADnez-0a6b5132" target="_blank"><img src="public/images/linkedin-logo.png" alt="Logo de linkedin" title="Enlace al perfil de linkedin"></a>
-                            </li>
-                            <li class="d-inline px-1">
-                                <a class="text-decoration-none text-white" rel="noreferrer noopener" href="https://www.facebook.com/livetropical/" target="_blank"><img src="public/images/facebook-logo.png" alt="Logo de facebook" title="Enlace al perfil de facebook"></a>
-                            </li>
-                            <li class="d-inline px-1">
-                                <a class="text-decoration-none text-white" rel="noreferrer noopener" href="https://www.instagram.com/grecoliveoficial/" target="_blank"><img src="public/images/instagram-logo.png" alt="Logo de facebook" title="Enlace al perfil de instagram"></a>
-                            </li>
-                        </ul>
+                        <ul id="social-links" class="list-unstyled d-flex justify-content-center"></ul>
                     </div>
                 </div>
             </div>
@@ -201,8 +164,10 @@
                 <div class="row justify-content-center">
                     <div class="col-12 mb-3 text-center">
                         <h3 class="font-weight-bold">CONTACTO</h3>
-                        <p style="cursor: pointer;" class="mailgo" data-address="gregori_dj" data-domain="hotmail.com">gregori_dj@hotmail.com</p>
-                        <p style="cursor: pointer;" class="mailgo" data-tel="+18098488801" data-telegram="telegram">+1 809-848-8801</p>
+                        <div id="contact-info" class="d-flex flex-column justify-content-center flex-wrap">
+                           
+                        </div>
+                        
                     </div>
                     <div class="col-12 text-center">
                         <p>&copy<span class="year"></span> Gregory Santos - Todos los Derechos Reservados</p>
@@ -236,7 +201,15 @@
           "telephone": "+18098488801",
           "url": "https://grecolive.github.io/portfolio/"
         }
-        </script>
+    </script>
+    <script src="public/javascript/dataservice.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            getProfile();
+            getExperience();
+            getEducation();
+        });
+    </script>
 </body>
 
 </html>

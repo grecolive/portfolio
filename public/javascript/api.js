@@ -69,26 +69,34 @@ let fecha = calculate_age(new Date(1990, 10, 24));
   
     // Set the theme to the user-preferred theme
     const setTheme = theme => {
-      if (theme === 'auto') {
-        document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        changeThemeDropdown.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        let dropdownChilds = changeThemeDropdown.childNodes[3].querySelectorAll(".dropdown-item");
-        dropdownChilds.forEach((child) => {
-            child.classList.remove('active');
-            if (child.getAttribute('data-bs-theme-value') === 'auto') {
-                child.classList.add('active');
-            }else{
+        if (theme === 'auto') {
+            document.documentElement.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            changeThemeDropdown.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            let dropdownChilds = changeThemeDropdown.childNodes[3].querySelectorAll(".dropdown-item");
+            dropdownChilds.forEach((child) => {
                 child.classList.remove('active');
                 child.closest('.dropdown').firstChild.nextSibling.innerHTML = "";
                 let icon = child.firstChild.nextSibling.cloneNode(true);
-                child.closest('.dropdown').firstChild.nextSibling.appendChild(icon);
-            }
-        });
-    
-    } else {
-        document.documentElement.setAttribute('data-bs-theme', theme);
-        changeThemeDropdown.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      }
+                child.closest('.dropdown').firstChild.nextSibling.appendChild(icon); 
+                if (child.getAttribute('data-bs-theme-value') === theme) {
+                    child.classList.add('active');
+                }
+            });
+        } else {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+            changeThemeDropdown.setAttribute('data-bs-theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            let dropdownChilds = changeThemeDropdown.childNodes[3].querySelectorAll(".dropdown-item");
+            dropdownChilds.forEach((child) => {
+                child.classList.remove('active');
+               
+                if (child.getAttribute('data-bs-theme-value') === theme) {
+                    child.classList.add('active');
+                     child.closest('.dropdown').firstChild.nextSibling.innerHTML = "";
+                    let icon = child.firstChild.nextSibling.cloneNode(true);
+                    child.closest('.dropdown').firstChild.nextSibling.appendChild(icon); 
+                }
+            });
+        }
     };
 
     setTheme(getPreferredTheme());
@@ -97,32 +105,17 @@ let fecha = calculate_age(new Date(1990, 10, 24));
     document.querySelectorAll('[data-bs-theme-value]').forEach(themeOption => {
         themeOption.addEventListener('click', () => {
             const selectedTheme = themeOption.getAttribute('data-bs-theme-value');
-            themeOption.classList.add('active');
-
-            if (selectedTheme === 'auto') {
-                setStoredTheme('');
-            }
-
-            themeOption.closest('.dropdown').firstChild.nextSibling.innerHTML = "";
-            let icon = themeOption.firstChild.nextSibling.cloneNode(true);
-            themeOption.closest('.dropdown').firstChild.nextSibling.appendChild(icon);
             setStoredTheme(selectedTheme);
             setTheme(selectedTheme);
-        
-            // Remove active class from other theme options
-            document.querySelectorAll('[data-bs-theme-value]').forEach(el => {
-                if (el !== themeOption) {
-                    el.classList.remove('active');
-                }
-            });
         });
     });
   })
 ();
-  
+
 // Registrar el Service Worker
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js')
     .then(reg => console.log('Registro de SW exitoso', reg))
     .catch(err => console.warn('Error al tratar de registrar el sw', err))
 }
+

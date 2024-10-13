@@ -1,6 +1,7 @@
-const CACHE_NAME = 'v1_cache_gregory_santos_portfolio',
+const CACHE_NAME = 'v2_cache_gregory_santos_portfolio',
   urlsToCache = [
     './',
+    './data/portfolio.json',
     'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css',
     'https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
@@ -9,6 +10,7 @@ const CACHE_NAME = 'v1_cache_gregory_santos_portfolio',
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js',
     './public/css/custom.css',
     './public/javascript/api.js',
+    './public/javascript/dataservice.js',
     './public/images/gregory.jpg',
     './public/images/favicon-32x32.png'
   ]

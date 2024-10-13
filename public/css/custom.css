@@ -13,7 +13,7 @@ body {
 
 
 footer {
-    background-color: #40dbc4;
+    background-color: #12dec0;
 }
 
 footer h3 {
@@ -119,4 +119,23 @@ hr {
     padding: 0;
     font-size: 40px;
     color: #1d4d46 !important;
+}
+
+details[open] * {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+details[open] > summary{
+    color: rgb(248, 212, 83);
+    text-decoration: wavy underline #12dec0;
 }
