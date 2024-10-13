@@ -82,16 +82,6 @@
             "from": 2015,
             "to": 2024,
             "description": "Completé mi Licenciatura en Informática en la UASD, donde adquirí conocimientos sólidos en diversas áreas de la informática, incluyendo programación, bases de datos, redes y sistemas operativos. Mi educación se centró en el desarrollo de habilidades técnicas y analíticas, así como en la capacidad de resolver problemas complejos y aplicar soluciones innovadoras en el campo de la tecnología. Mi proyecto de grado se tituló <strong>“Elaboración de Manual Automatizado e Interactivo y el Manual Físico de la Asignatura Laboratorio de Programación I (INF-513)”</strong>, enfocado en mejorar el aprendizaje de los estudiantes mediante recursos tecnológicos avanzados."
-        },
-        {
-            "type": "formal",
-            "degree": "Curso",
-            "major": "React JS",
-            "institution": "UDEMY",
-            "logo":"https://svgl.app/library/udemy.svg",
-            "from": 2024,
-            "to": null,
-            "description": null
         }
     ],
     "experience": [
