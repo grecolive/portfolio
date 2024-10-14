@@ -28,8 +28,6 @@ const getProfile = () => {
         home.querySelector('#summary').insertAdjacentHTML('beforeend', data.profile.summary);
         about.querySelector('#about-text').insertAdjacentHTML('beforeend', data.profile.about);
 
-        console.log(data.profile.technologies);
-        
         data.profile.technologies.forEach(technology => {
             
             let skillTemplate = `
@@ -37,8 +35,7 @@ const getProfile = () => {
 
             home.querySelector('#technologies').insertAdjacentHTML('beforeend', skillTemplate);
         });
-        //home.querySelector('#technologies').insertAdjacentHTML('beforeend', data.profile.summary);
-
+       
         let socialTemplate = `
         <li class="d-inline px-1">
             <a class="text-decoration-none text-white" rel="noreferrer noopener" href="${data.profile.social.linkedin}" target="_blank"><img src="public/images/linkedin-logo.png" alt="Logo de linkedin" title="Enlace al perfil de linkedin"></a>
@@ -94,7 +91,6 @@ const getProfile = () => {
 
 const getExperience = () => {
     httpRequest("portfolio").then(data => {
-        console.log(data.experience);
         const experience = document.querySelector('#experience');
         let experienceTemplate = ``;
         data.experience.forEach(experienceItem => {
