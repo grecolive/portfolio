@@ -100,19 +100,19 @@ const getExperience = () => {
                                 <h3 class="h4 fw-bold">${experienceItem.company} <br> <span class="h6">${experienceItem.from}${experienceItem.to?` - ${experienceItem.to}`:``}</span></h3>
                                 <img class="img-fluid img-thumbnail border-0" src="${experienceItem.logo}" alt="Logo ${experienceItem.company}" width="50">
                             </div>
-                            <h5 class="card-title">Posiciones</h5>
+                            <h4 class="card-title h5">Posiciones</h4>
                             <p class="card-text">${experienceItem.position.map(pos=>{
                                 return `<span class="badge bg-primary mx-1 mb-2">${pos}</span>`;
                             }).join("")}</p>
                             <details>
                                 <summary class="mb-3">Más información</summary>
-                                <h5 class="card-title">Descripción</h5>
+                                <h4 class="card-title h5">Descripción</h4>
                                 <p class="card-text">${experienceItem.description}</p>
-                                <h5 class="card-title">Tecnologías</h5>
+                                <h4 class="card-title h5">Tecnologías</h4>
                                 <div class="mb-3">
                                 ${experienceItem.technologies.map(technology => `<span class="badge bg-primary mx-1 mb-2">${technology}</span>`).join('')}
                                 </div> 
-                                <h5 class="card-title">Proyectos</h5>
+                                <h4 class="card-title h5">Proyectos</h4>
                                 <div class="accordion py-2" id="projectsAccordion-${experienceItem.id}">
                                     ${experienceItem.projects.map((project,index) => 
                                     `<div class="accordion-item">
