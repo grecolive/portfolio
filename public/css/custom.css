@@ -11,7 +11,6 @@ body {
     width: 100%;
 }
 
-
 footer {
     background-color: #12dec0;
 }
@@ -59,9 +58,7 @@ footer h3 {
     font-feature-settings: 'liga';
 }
 
-
 /* Rules for sizing the icon. */
-
 .material-icons.md-18 {
     font-size: 18px;
 }
@@ -78,9 +75,7 @@ footer h3 {
     font-size: 48px;
 }
 
-
 /* Rules for using icons as black on a light background. */
-
 .material-icons.md-dark {
     color: rgba(0, 0, 0, 0.54);
 }
@@ -89,9 +84,7 @@ footer h3 {
     color: rgba(0, 0, 0, 0.26);
 }
 
-
 /* Rules for using icons as white on a dark background. */
-
 .material-icons.md-light {
     color: rgba(255, 255, 255, 1);
 }
@@ -104,6 +97,10 @@ hr {
     font-weight: bold !important;
     color: black;
 }
+
+#summary {
+    letter-spacing: .1rem;
+}	
 
 .top{
     display: none;
