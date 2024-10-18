@@ -1,19 +1,20 @@
 const CACHE_NAME = 'v2_cache_gregory_santos_portfolio',
-  urlsToCache = [
-    './',
-    './data/portfolio.json',
-    'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css',
-    'https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap',
-    'https://fonts.googleapis.com/icon?family=Material+Icons',
-    'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js',
-    './public/css/custom.css',
-    './public/javascript/api.js',
-    './public/javascript/dataservice.js',
-    './public/images/gregory.jpg',
-    './public/images/favicon-32x32.png'
-  ]
+
+urlsToCache = [
+  './',
+  './index.html',
+  './data/portfolio.json',
+  './public/css/custom.css',
+  './public/javascript/api.js',
+  './public/javascript/dataservice.js',
+  './public/images/gregory.jpg',
+  './public/images/favicon-32x32.png',
+  'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css',
+  'https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&display=swap',
+  'https://fonts.googleapis.com/icon?family=Material+Icons',
+  'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'
+]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
