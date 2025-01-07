@@ -9,6 +9,7 @@ urlsToCache = [
   './public/javascript/dataservice.js',
   './public/images/gregory.jpg',
   './public/images/favicon-32x32.png',
+  './public/images/nav-icon.webp',
   'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css',
   'https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&display=swap',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
