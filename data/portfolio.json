@@ -2,7 +2,7 @@
     "profile": {
         "name": "Gregory Antonio Santos Martínez",
         "birthday": "1990/10/24",
-        "summary": "Desarrollador de software con más de 5 años de experiencia, comprometido con la innovación y la excelencia en la entrega de soluciones tecnológicas. Reconocido por mi capacidad para interpretar y satisfacer necesidades complejas son la base de mi enfoque colaborativo, aportando una visión analítica y estratégica en el desarrollo de proyectos. Mi enfoque se centra en entender profundamente las necesidades del proyecto y del equipo, asegurando que cada solución no solo cumpla con los requisitos técnicos, sino que sea robusta y escalable. Además, que fomente el crecimiento y la eficiencia dentro de la organización.",
+        "summary": "Desarrollador de software full-stack con más de 7 años de experiencia modernizando plataformas web para instituciones gubernamentales, educativas y científicas en República Dominicana. Especializado en PHP, Laravel, Vue y FilamentPHP, con infraestructura en Docker y administración de revistas científicas (Open Journal System), he liderado migraciones de alto impacto, refactorizaciones de seguridad y relanzamientos de portales que hoy respaldan a miles de usuarios. Traduzco necesidades complejas en soluciones robustas, escalables y medibles —desde un portal intranet institucional con automatizacion de los servicios internos y optimización de procesos hasta la certificación NORTIC A2 para portales web del estado desarrollando soluciones a medida—. Autodidacta, meticuloso y orientado a resultados, disfruto cada reto como una oportunidad para elevar el estándar técnico del equipo.",
         "location": "República Dominicana",
         "photo": "john-doe.jpg",
         "contact": {
@@ -30,7 +30,7 @@
                 "icon":"<svg xmlns='http://www.w3.org/2000/svg' width='24' viewBox='0 0 1052 1052'><path fill='#f0db4f' d='M0 0h1052v1052H0z'/><path d='M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z' fill='#323330'/></svg>"
             },
             {
-                "name":"",
+                "name":"PHP",
                 "icon":"<svg xmlns='http://www.w3.org/2000/svg' width='36' viewBox='0 -1 100 50'><path fill='#777bb3' d='M7.579 10.123h14.204c4.169.035 7.19 1.237 9.063 3.604 1.873 2.367 2.491 5.6 1.855 9.699-.247 1.873-.795 3.71-1.643 5.512a16.385 16.385 0 01-3.392 4.876c-1.767 1.837-3.657 3.003-5.671 3.498a26.11 26.11 0 01-6.254.742h-6.36l-2.014 10.07H0l7.579-38.001m6.201 6.042l-3.18 15.9c.212.035.424.053.636.053h.742c3.392.035 6.219-.3 8.48-1.007 2.261-.742 3.781-3.321 4.558-7.738.636-3.71 0-5.848-1.908-6.413-1.873-.565-4.222-.83-7.049-.795-.424.035-.83.053-1.219.053h-1.113l.053-.053M41.093 0h7.314L46.34 10.123h6.572c3.604.071 6.289.813 8.056 2.226 1.802 1.413 2.332 4.099 1.59 8.056l-3.551 17.649h-7.42L54.979 21.2c.353-1.767.247-3.021-.318-3.763s-1.784-1.113-3.657-1.113l-5.883-.053-4.346 21.783h-7.314L41.093 0M70.412 10.123h14.204c4.169.035 7.19 1.237 9.063 3.604 1.873 2.367 2.491 5.6 1.855 9.699-.247 1.873-.795 3.71-1.643 5.512a16.385 16.385 0 01-3.392 4.876c-1.767 1.837-3.657 3.003-5.671 3.498a26.11 26.11 0 01-6.254.742h-6.36L70.2 48.124h-7.367l7.579-38.001m6.201 6.042l-3.18 15.9c.212.035.424.053.636.053h.742c3.392.035 6.219-.3 8.48-1.007 2.261-.742 3.781-3.321 4.558-7.738.636-3.71 0-5.848-1.908-6.413-1.873-.565-4.222-.83-7.049-.795-.424.035-.83.053-1.219.053H76.56l.053-.053'/></svg>"
             },
             {
@@ -62,15 +62,19 @@
                 "icon":"<svg viewBox='0 0 256 154' width='24' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMidYMid' ><defs><linearGradient x1='-2.778%' y1='32%' x2='100%' y2='67.556%' id='gradient'><stop stop-color='#2298BD' offset='0%'></stop><stop stop-color='#0ED7B5' offset='100%'></stop></linearGradient></defs><path d='M128 0C93.867 0 72.533 17.067 64 51.2 76.8 34.133 91.733 27.733 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.8c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0ZM64 76.8C29.867 76.8 8.533 93.867 0 128c12.8-17.067 27.733-23.467 44.8-19.2 9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8Z' fill='url(#gradient)'></path></svg>"
             },
             {
-                "name":"",
-                "icon":"<img src='https://upload.wikimedia.org/wikipedia/commons/3/32/OJS.svg' alt='Open Joural System' width='36'/>"
+                "name":"Docker",
+                "icon":"<img src='https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Docker_Logo.svg/120px-Docker_Logo.svg.png' alt='Docker' width='36'/>"
+            },
+            {
+                "name":"Open Journal System",
+                "icon":"<img src='https://upload.wikimedia.org/wikipedia/commons/3/32/OJS.svg' alt='Open Journal System' width='36'/>"
             }
         ],
         "languages": [
             "English",
             "Spanish"
         ],
-        "about": "Soy un profesional autodidacta con una profunda pasión por la tecnología y la programación. Desde muy joven, con recursos limitados, me sumergí en el mundo de la informática. Mi primer encuentro con la programación fue a través de un juego llamado Helbreath, que despertó en mí un interés insaciable por crear soluciones tecnológicas.<br><br>A lo largo de mi carrera, he enfrentado y superado numerosos desafíos, lo que me ha permitido desarrollar una resiliencia y una capacidad de adaptación excepcionales. Entiendo las dificultades que muchos desarrolladores enfrentan, desde la falta de recursos hasta la necesidad constante de actualizarse en un campo en constante evolución. Estas experiencias me han enseñado la importancia de la perseverancia y la autoeducación.<br><br>Mi enfoque profesional se centra en seguir las mejores prácticas de programación y en la creación de soluciones eficientes y efectivas. Creo firmemente en el poder de la tecnología para resolver problemas reales y mejorar la vida de las personas. Mi objetivo es continuar creciendo como desarrollador y contribuir de manera significativa a proyectos innovadores."
+        "about": "Soy un profesional autodidacta con una profunda pasión por la tecnología y la programación. Desde muy joven, con recursos limitados, me sumergí en el mundo de la informática. Mi primer encuentro con la programación fue a través de un juego llamado Helbreath, que despertó en mí un interés insaciable por crear soluciones tecnológicas.<br><br>A lo largo de mi carrera he enfrentado y superado numerosos desafíos, lo que me ha permitido desarrollar una resiliencia y una capacidad de adaptación excepcionales. Entiendo las dificultades que muchos desarrolladores enfrentan, desde la falta de recursos hasta la necesidad constante de actualizarse en un campo en constante evolución. Esas experiencias me enseñaron el valor de la perseverancia y la autoeducación, y hoy las convierto en mi mayor ventaja competitiva.<br><br>Mi enfoque profesional se centra en seguir las mejores prácticas de programación y en construir soluciones eficientes, seguras y bien documentadas. Creo firmemente en el poder de la tecnología para resolver problemas reales y mejorar la vida de las personas. Mi objetivo es seguir creciendo como desarrollador y aportar el mismo nivel de compromiso y resultados a cada nuevo equipo del que forme parte."
     },
     "education": [
         {
@@ -78,7 +82,7 @@
             "degree": "Licenciatura",
             "major": "en Informática",
             "institution": "Universidad Autónoma de Santo Domingo (UASD)",
-            "logo":"https://transparencia.uasd.edu.do/sites/all/themes/transparencia_responsive/images/logo-uasd-solo-footer.png",
+            "logo": "public/images/uasd-logo.svg",
             "from": 2015,
             "to": 2024,
             "description": "Completé mi Licenciatura en Informática en la UASD, donde adquirí conocimientos sólidos en diversas áreas de la informática, incluyendo programación, bases de datos, redes y sistemas operativos. Mi educación se centró en el desarrollo de habilidades técnicas y analíticas, así como en la capacidad de resolver problemas complejos y aplicar soluciones innovadoras en el campo de la tecnología. Mi proyecto de grado se tituló <strong>“Elaboración de Manual Automatizado e Interactivo y el Manual Físico de la Asignatura Laboratorio de Programación I (INF-513)”</strong>, enfocado en mejorar el aprendizaje de los estudiantes mediante recursos tecnológicos avanzados."
@@ -92,7 +96,7 @@
             "position": [
                 "Programador de Software"
             ],
-            "description": "Esta posición se complementa con la siguientes resposabilidades recopilar los requisitos de software de los usuarios, verificar y corregir el software desarrollado para asegurar su calidad, implementar soluciones de software tanto internas como de terceros, analizar y diseñar la arquitectura técnica y lógica de las soluciones. Además, diversas tareas complementarias relacionadas con el puesto.",
+            "description": "Como Programador de Software en el ISFODOSU lidero el ciclo completo de desarrollo: desde el levantamiento de requisitos con los usuarios hasta el diseño de la arquitectura técnica, la implementación de soluciones propias y de terceros, y el control de calidad del software entregado. Combino PHP, Laravel, Vue y Docker para modernizar portales institucionales, congresos académicos y plataformas de investigación, priorizando siempre el rendimiento, la seguridad y una experiencia de usuario cuidada.",
             "technologies": [
                 "PHP",
                 "HTML",
@@ -102,33 +106,78 @@
                 "MySQL",
                 "JQuery",
                 "Smarty",
-                "Open Joural System",
+                "Open Journal System",
                 "Laravel",
                 "Vue",
-                "Azure WebApp"                
+                "Azure WebApp",
+                "Docker"               
             ],
             "projects": [
                 {
-                    "uuid":"oklf",
-                    "name": "Plataforma web del 5to. Congreso Caribeño de Investigación Educativa CCIE",
-                    "description": "Diseñé y desarrollé el sitio web para el 5to. Congreso Caribeño de Investigación Educativa (CCIE). Este proyecto incluyó una actualización completa del sistema, mejorando significativamente tanto el rendimiento como la seguridad de la plataforma. Además, implementé un diseño personalizado alineado con las últimas tendencias y mejores prácticas del sector, optimizando la funcionalidad y la experiencia del usuario. Esta modernización ha consolidado el sitio web del CCIE como una herramienta robusta y eficiente, preparada para manejar las exigencias de un congreso académico de alto calibre.",
+                    "uuid":"ccie6",
+                    "name": "Plataforma web del 6to. Congreso Caribeño de Investigación Educativa CCIE",
+                    "description": "Lideré la sexta edición consecutiva del sitio web del Congreso Caribeño de Investigación Educativa (CCIE), actualizando el sistema a la versión más reciente de Open Journal System (3.5) sobre bases más seguras y rápidas. El rediseño incorporó las últimas tendencias de UX y buenas prácticas de accesibilidad, dejando una plataforma lista para escalar a futuras ediciones sin reescribir el sistema desde cero.",
                     "url": "https://congresos.isfodosu.edu.do",
                     "technologies": [
                         "HTML",
                         "CSS",
                         "Java Script",
                         "PHP",
-                        "Open Joural System",
+                        "Open Journal System",
+                        "Bootstrap",
+                        "MySQL",
+                        "Smarty"
+                    ]
+                },
+                 {
+                    "uuid":"docedu",
+                    "name": "Portal web del Doctorado de Educación",
+                    "description": "Construí desde cero, con Vue y despliegue en Azure Static Web Apps, el portal del Doctorado en Educación del ISFODOSU: una interfaz rápida, moderna y orientada a convertir visitantes en aspirantes, con información de admisión clara y una experiencia pensada para un público académico exigente.",
+                    "url": "https://doctorado.isfodosu.edu.do",
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "Vue",
+                        "Bootstrap",
+                        "Azure Static Web Apps"
+                    ]
+                },
+                 {
+                    "uuid":"gidesf",
+                    "name": "Portal de Datos de Investigación y Grupos de Investigación del ISFODOSU",
+                    "description": "Reconstruí sobre una base moderna y contenerizada el portal que unifica los Datos de Investigación y los Grupos de Investigación del ISFODOSU: PHP 8.4 y Laravel 11 en el backend, Vue 3 y Bootstrap 5 en el frontend, y FilamentPHP v3 como panel de administración, todo orquestado con Docker para despliegues consistentes y reproducibles. El resultado es una vitrina ágil que da visibilidad institucional a la labor investigativa sin depender de actualizaciones manuales.",
+                    "url": "https://gi.isfodosu.edu.do",
+                    "technologies": [
+                        "Docker",
+                        "PHP 8.4",
+                        "Laravel 11",
+                        "Vue 3",
+                        "Bootstrap 5",
+                        "FilamentPHP v3",
+                        "MySQL"
+                    ]
+                },
+                {
+                    "uuid":"ccie5",
+                    "name": "Plataforma web del 5to. Congreso Caribeño de Investigación Educativa CCIE",
+                    "description": "Senté las bases técnicas del sitio del 5to. Congreso Caribeño de Investigación Educativa, sobre PHP, Open Journal System y Smarty, reforzando rendimiento y seguridad. El trabajo de esta edición se convirtió en el cimiento reutilizado para modernizar con éxito las ediciones posteriores del congreso.",
+                    "url": "https://congresos.isfodosu.edu.do",
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "Java Script",
+                        "PHP",
+                        "Open Journal System",
                         "Bootstrap",
                         "MySQL",
                         "Smarty"
                     ]
                 },
                 {
-                    "uuid":"josf",
-                    "name": "Portal de Producción Científica del ISFODOSU",
-                    "description": "Desarrollé el Portal de Producción Científica del ISFODOSU para la Dirección de Investigación, con el objetivo de divulgar los indicadores de investigación y la producción académica institucional. Este portal proporciona reconocimiento y visibilidad a la labor investigativa de los docentes y los grupos de investigación del Instituto Superior de Formación Docente Salomé Ureña (ISFODOSU). La plataforma fue diseñada para cumplir con esta necesidad específica, asegurando una presentación clara y accesible de la información, y destacando el compromiso de la institución con la excelencia y la transparencia en la investigación académica.",
-                    "url": "https://portalcientifico.isfodosu.edu.do",
+                    "uuid":"obscien",
+                    "name": "Observatorio Científico del ISFODOSU",
+                    "description": "Construí el Observatorio Científico del ISFODOSU para la Dirección de Investigación, un panel que traduce los indicadores de investigación y la producción académica institucional en información clara y accesible para toda la comunidad. Hoy es la vitrina oficial que da reconocimiento y visibilidad al trabajo de docentes y grupos de investigación de la institución.",
+                    "url": "https://observatoriocientifico.isfodosu.edu.do",
                     "technologies": [
                         "HTML",
                         "CSS",
@@ -139,16 +188,16 @@
                     ]
                 },
                 {
-                    "uuid":"clyt",
+                    "uuid":"ccie4",
                     "name": "4to. Congreso Caribeño de Investigación Educativa - CCIE 2023",
-                    "description": "Desarrollé un tema personalizado para el Open Journal System (OJS). Este diseño, implementado en la plataforma del congreso, se basó en las tendencias más recientes de 2023 y respetó las mejores prácticas para garantizar una experiencia de usuario agradable y optimizada para motores de búsqueda (SEO). El tema personalizado no solo mejoró la estética de la plataforma, sino que también facilitó una navegación intuitiva, reflejando el compromiso del congreso con la innovación y la calidad en la difusión de la investigación educativa.",
-                    "url": "https://congresos.isfodosu.edu.do/ccie2023",
+                    "description": "Diseñé y codifiqué un tema a medida para Open Journal System siguiendo las tendencias visuales de 2023, logrando una navegación intuitiva y optimizada para SEO que reflejó la seriedad académica del congreso sin sacrificar una experiencia de usuario moderna.",
+                    "url": "https://congresos.isfodosu.edu.do",
                     "technologies": [
                         "HTML",
                         "CSS",
                         "Java Script",
                         "PHP",
-                        "Open Joural System",
+                        "Open Journal System",
                         "Bootstrap",
                         "MySQL",
                         "Smarty"
@@ -157,7 +206,7 @@
                 {
                     "uuid":"jky3",
                     "name": "Plataforma de Gestión de Certificados",
-                    "description": "Desarrollé una plataforma avanzada para la Dirección de Investigación del ISFODOSU que gestiona integralmente los certificados de los diversos eventos y capacitaciones organizados. Esta plataforma está diseñada para cumplir con estándares internacionales, garantizando así la máxima fiabilidad y seguridad en sus funciones. Utilizando la versión 8.3 de PHP, la plataforma permite no solo generar y validar certificados, sino también gestionarlos de manera eficiente y segura.<br><br>El sistema incorpora diversas capas de seguridad para proteger los datos personales y asegurar la integridad de los certificados emitidos. Además, está optimizado para ofrecer un rendimiento superior, incluso bajo alta demanda. La plataforma facilita la administración de certificados a través de una interfaz intuitiva y fácil de usar, permitiendo a los usuarios acceder, descargar y verificar la autenticidad de los certificados de forma rápida y sencilla.<br><br>Esta solución no solo mejora la eficiencia operativa de la Dirección de Investigación, sino que también refuerza su compromiso con la excelencia académica y la profesionalidad en la emisión de certificados de participación y formación.",
+                    "description": "Diseñé y desarrollé, sobre PHP 8.3, una plataforma que automatiza la emisión, validación y verificación de los certificados de todos los eventos y capacitaciones de la Dirección de Investigación del ISFODOSU. Incorpora múltiples capas de seguridad para proteger los datos personales y garantizar la autenticidad de cada certificado, incluso bajo alta demanda, reemplazando un proceso antes manual por uno confiable y autoservicio para los participantes.",
                     "url": "https://congresos.isfodosu.edu.do/participantes",
                     "technologies": [
                         "HTML",
@@ -171,7 +220,7 @@
                 {
                     "uuid":"jkdf",
                     "name": "Actualización del Acortador de URL RECIE",
-                    "description": "El proyecto consistió en una refactorización del código debido a varias brechas de seguridad detectadas. Se realizaron cambios estructurales, como mejoras en los modelos de gestión de datos y la inclusión de validaciones más robustas tanto en el frontend como en el backend. Además, se fortaleció la seguridad en la interacción entre el sistema y el motor de base de datos, y se optimizaron las consultas para mejorar el rendimiento. El proyecto también incluyó la migración a un servidor Ubuntu y la actualización a PHP 8.3, destacando las virtudes y ventajas de utilizar esta versión.",
+                    "description": "Detecté y cerré varias brechas de seguridad en el acortador de URL de RECIE mediante una refactorización completa del código: modelos de datos más sólidos, validaciones robustas en frontend y backend, y consultas optimizadas a la base de datos. Aproveché la migración a un servidor Ubuntu y la actualización a PHP 8.3 para dejar el servicio más rápido, seguro y preparado para crecer.",
                     "url": "https://r.issu.edu.do",
                     "technologies": [
                         "HTML",
@@ -185,14 +234,14 @@
                 {
                     "uuid":"klj3",
                     "name": "Migración y Actualización OJS Revistas Caribeña de Investigación Educativa",
-                    "description": "El proyecto consiste en actualizar el sistema gestor de revistas Open Journal System (OJS) de la versión 3.2.1.0 a la 3.3.0.11 e implementar un diseño personalizado, con el objetivo de mejorar el rendimiento, la seguridad y la optimización para motores de búsqueda (SEO) de la revista. Estas modificaciones están alineadas con los criterios de Scopus, Web of Science (WOS) y Redalyc, con la finalidad de lograr la indexación de la revista en estas plataformas de evaluación.",
+                    "description": "Llevé el Open Journal System de la Revista Caribeña de Investigación Educativa (RECIE) de la versión 3.2.1.0 a la 3.3.0.11 e implementé un diseño personalizado, mejorando rendimiento, seguridad y SEO. El trabajo se alineó deliberadamente con los criterios de Scopus, Web of Science y Redalyc para encaminar a la revista hacia su indexación en estas plataformas de referencia mundial.",
                     "url": "https://revistas.isfodosu.edu.do/index.php/recie",
                     "technologies": [
                         "HTML",
                         "CSS",
                         "Java Script",
                         "PHP",
-                        "Open Joural System",
+                        "Open Journal System",
                         "Bootstrap",
                         "MySQL",
                         "Smarty"
@@ -201,14 +250,14 @@
                 {
                     "uuid":"jkl3",
                     "name": "Migración y Actualización OJS 3er. Congreso Caribeño de Investigación Educativa",
-                    "description": "El proyecto se centra en actualizar el Open Journal System (OJS) del 3er Congreso Caribeño de Investigación Educativa, llevando la versión 3.3.0.6 a la 3.3.0.9, la última disponible en ese momento. Aparte de la actualización, se implementó un diseño personalizado acorde a un evento de investigación educativa, buscando mejorar el rendimiento y la estética de la plataforma, así como su optimización para SEO y cumplimiento de estándares de indexación académica.",
-                    "url": "https://congresos.isfodosu.edu.do/ccie2022",
+                    "description": "Actualicé el Open Journal System del 3er Congreso Caribeño de Investigación Educativa de la versión 3.3.0.6 a la 3.3.0.9 e implementé un diseño propio para el evento, elevando rendimiento, estética y SEO, y asegurando el cumplimiento de los estándares de indexación académica desde el primer día del congreso.",
+                    "url": "https://congresos.isfodosu.edu.do",
                     "technologies": [
                         "HTML",
                         "CSS",
                         "Java Script",
                         "PHP",
-                        "Open Joural System",
+                        "Open Journal System",
                         "Bootstrap",
                         "MySQL",
                         "Smarty"
@@ -225,7 +274,7 @@
             "position": [
                 "Programador de Software"
             ],
-            "description": "En 2023 trabajé como proveedor independiente para la empresa Metxi en un contrato de cuatro meses, colaborando con el Centro Bono en la actualización de su revista científica Estudios Sociales. Este proyecto implicó modernizar la plataforma, mejorar la accesibilidad y asegurar que la revista cumpliera con los estándares actuales de publicación académica, garantizando así una difusión más amplia y efectiva de los estudios presentados. La actualización incluyó tanto mejoras técnicas como estéticas, fortaleciendo la presencia de la revista en el ámbito científico.",
+            "description": "En 2023 trabajé como proveedor independiente para Metxi en un contrato de cuatro meses, colaborando con el Centro Bono en la modernización de su revista científica Estudios Sociales. El proyecto combinó mejoras técnicas y estéticas, reforzando la accesibilidad y el cumplimiento de los estándares de publicación académica para ampliar el alcance y la credibilidad de la revista en el ámbito científico.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -234,20 +283,20 @@
                 "Bootstrap",
                 "MySQL",
                 "Smarty",
-                "Open Joural System"              
+                "Open Journal System"              
             ],
             "projects": [
                 {
-                    "uuid":"psm4",
+                    "uuid":"ojses",
                     "name": "Migración y Actualización OJS Revista Estudios Sociales",
-                    "description": "El proyecto consiste en actualizar el sistema gestor de revistas Open Journal System (OJS) de la versión 3.2.1.0 a la 3.3.0.13 e implementar un diseño personalizado, con el objetivo de mejorar el rendimiento, la seguridad y la optimización para motores de búsqueda (SEO) de la revista.",
+                    "description": "Actualicé el Open Journal System de la revista Estudios Sociales del Centro Bono de la versión 3.2.1.0 a la 3.3.0.13 e implementé un diseño personalizado, mejorando rendimiento, seguridad y posicionamiento SEO de la publicación.",
                     "url": "https://estudiossociales.bono.edu.do/index.php/es",
                     "technologies": [
                         "HTML",
                         "CSS",
                         "Java Script",
                         "PHP",
-                        "Open Joural System",
+                        "Open Journal System",
                         "Bootstrap",
                         "MySQL",
                         "Smarty"
@@ -265,7 +314,7 @@
                 "Programador Web",
                 "Soporte Técnico"
             ],
-            "description": "Durante mi trayectoria profesional de casi ocho años en el IDEICE, me desempeñé como Soporte Técnico Informático y Programador Web, donde adquirí sólidas habilidades en el desarrollo y mantenimiento de plataformas digitales. Fui responsable de la programación, gestión y actualización de la intranet, el sistema OJS y el Observatorio de Políticas Educativas (OPERD). Además, me encargué de la curación y parametrización de datos, así como del diseño de plantillas HTML. Mi experiencia en el IDEICE me permitió desarrollar un profundo conocimiento en tecnologías de la información y una gran capacidad para trabajar en equipo y resolver problemas.",
+            "description": "Durante casi ocho años en el IDEICE me desempeñé como Programador Web y Soporte Técnico, desarrollando y manteniendo plataformas críticas para la transparencia y la investigación educativa del Estado dominicano: la intranet institucional, el sistema OJS y el Observatorio de Políticas Educativas (OPERD). También lideré la curación y parametrización de datos y el diseño de plantillas HTML. Esta etapa consolidó mi base técnica y mi capacidad para resolver problemas complejos en equipo, bajo los estrictos estándares de un organismo gubernamental.",
             "technologies": [
                 "PHP",
                 "C#",
@@ -275,14 +324,14 @@
                 "Bootstrap",
                 "JQuery",
                 "Smarty",
-                "Open Joural System",              
+                "Open Journal System",              
                 "Office 365"                
             ],
             "projects": [
                 {
                     "uuid":"psty",
                     "name": "Portal Institucional IDEICE",
-                    "description": "En el desarrollo del portal institucional, aporté numerosas ideas para la optimización y mejora del mismo, lo que resultó en la obtención de un puntaje excelente en Google PageSpeed. Además, colaboré en el proyecto que permitió obtener la certificación NORTIC A2, desde 2016 hasta la edición 2021, cumpliendo con las normas para el desarrollo y gestión de los portales web y la transparencia de los organismos del Estado Dominicano. Este trabajo no solo mejoró el rendimiento del portal, sino que también garantizó su conformidad con los más altos estándares de transparencia y eficiencia.",
+                    "description": "Impulsé la optimización del portal institucional del IDEICE hasta obtener un puntaje excelente en Google PageSpeed, y participé en el proyecto que mantuvo vigente la certificación NORTIC A2 entre 2016 y 2021, cumpliendo las normas de desarrollo, gestión y transparencia exigidas a los portales web del Estado dominicano. El resultado: un portal más rápido y plenamente conforme con los más altos estándares de transparencia y eficiencia.",
                     "url": "https://ideice.gob.do",
                     "technologies": [
                         "PHP",
@@ -308,9 +357,9 @@
                     ]
                 },
                 {
-                    "uuid":"psm4",
+                    "uuid":"operd",
                     "name": "Observatorio de Políticas Educativas de la República Dominicana",
-                    "description": "El Observatorio de Políticas Educativas de la República Dominicana fue concebido como una plataforma para establecer un sistema de información integral para el sector educativo. Diseñada para proporcionar datos organizados, confiables, verificables y evaluables periódicamente, esta plataforma se ideó inicialmente como un portal para liberar información sobre el sector educativo, permitiendo así que los investigadores se beneficien de estos datos. El objetivo es ofrecer una herramienta valiosa para la investigación y la toma de decisiones basadas en evidencia en el ámbito educativo.",
+                    "description": "Diseñé y desarrollé el Observatorio de Políticas Educativas (OPERD), la plataforma que centraliza datos organizados, confiables y verificables del sector educativo dominicano para ponerlos al alcance de investigadores y tomadores de decisiones. Hoy es una fuente de referencia para la investigación basada en evidencia en el ámbito educativo nacional.",
                     "url": "https://operd.gob.do",
                     "technologies": [
                         "PHP",
@@ -324,10 +373,10 @@
                 {
                     "uuid":"asf3",
                     "name": "Revista de Investigación y Evaluación Educativa",
-                    "description": "En el proyecto de la Revista de Investigación y Evaluación Educativa, tuve mi primera interacción con el Open Journal System (OJS) en su versión 3.1.2-4, la más estable en ese momento. Realicé la instalación y parametrización del sistema de gestión de revistas científicas, seguido de la migración completa de la revista Revie con todo su contenido. Este proyecto fue fundamental para impulsar el crecimiento de la revista, que alcanzó una mayor visibilidad y reconocimiento en la comunidad científica a nivel mundial.",
+                    "description": "Con la Revista de Investigación y Evaluación Educativa (Revie) tuve mi primer contacto con Open Journal System, en su versión estable 3.1.2-4. Instalé y parametricé el sistema, y migré la revista completa con todo su histórico de contenido, sentando las bases que impulsaron un crecimiento sostenido de su visibilidad y reconocimiento en la comunidad científica.",
                     "url": "https://revie.gob.do",
                     "technologies": [
-                        "Open Joural System",
+                        "Open Journal System",
                         "PHP",
                         "MySQL",
                         "cPanel"
@@ -336,7 +385,7 @@
                 {
                     "uuid":"mldy",
                     "name": "INTRANET IDEICE",
-                    "description": "Desarrollé la plataforma web INTRANET IDEICE con el objetivo de optimizar y agilizar diversos procesos y servicios ofrecidos a los empleados del Instituto Dominicano de Evaluación e Investigación de la Calidad Educativa (IDEICE). Esta herramienta integral no solo facilita la gestión y solicitud de servicios, sino que también mejora significativamente la eficiencia operativa y contribuye a un ambiente laboral más productivo y armonioso. Al centralizar y simplificar la interacción con los servicios internos, la INTRANET promueve un entorno de trabajo más colaborativo y eficiente, respaldando el compromiso de IDEICE con la excelencia organizacional y el bienestar de su equipo. Además, la plataforma se sincroniza con Azure Active Directory para asegurar que solo los empleados activos tengan acceso, garantizando así la seguridad y la integridad del sistema.",
+                    "description": "Desarrollé la INTRANET del IDEICE para centralizar y agilizar la gestión y solicitud de servicios internos, elevando la eficiencia operativa y la colaboración entre equipos. La plataforma se sincroniza con Azure Active Directory, garantizando que solo el personal activo tenga acceso y protegiendo así la seguridad e integridad del sistema.",
                     "url": "https://ideice.gob.do/intranet",
                     "technologies": [
                         "PHP",
@@ -351,7 +400,7 @@
                 {
                     "uuid":"plm4",
                     "name": "Plataforma de Evaluación de Directores Distritales y Regionales",
-                    "description": "En el Instituto Dominicano de Evaluación e Investigación de la Calidad Educativa (IDEICE), desarrollé una plataforma pionera para evaluar el primer año de gestión de los directores distritales y regionales, electos mediante concurso en 2018. Este proyecto fortaleció la transparencia y la eficacia en la evaluación del desempeño, proporcionando herramientas cruciales para la toma de decisiones informadas y estratégicas en la mejora de la calidad educativa.",
+                    "description": "Desarrollé en el IDEICE una plataforma pionera para evaluar el primer año de gestión de los directores distritales y regionales electos por concurso en 2018, fortaleciendo la transparencia y la eficacia del proceso y dotando a la institución de herramientas clave para decisiones informadas en la mejora de la calidad educativa.",
                     "url": null,
                     "technologies": [
                         "C#",
@@ -366,7 +415,7 @@
                 {
                     "uuid":"kgf3",
                     "name": "Evaluación de Desempeño Docente 2017 (EDD2017)",
-                    "description": "Para este proyecto desarrollamos una plataforma de escritorio integral que permite la consulta del estatus y los resultados obtenidos por los docentes. Esta herramienta es utilizada por los usuarios que brindan soporte a los docentes que necesitan asistencia con este tema. Además, realizamos un arduo trabajo en la limpieza y normalización de las bases de datos provenientes de las diversas pruebas aplicadas, así como en el procesamiento de estos datos. Este proyecto no solo facilitó el acceso y la gestión de la información evaluativa, sino que también contribuyó a la transparencia y la eficacia del proceso de evaluación docente.",
+                    "description": "Desarrollé una plataforma de escritorio para consultar el estatus y los resultados de la Evaluación de Desempeño Docente 2017, usada por el equipo de soporte que atiende a los docentes evaluados. El trabajo incluyó un proceso riguroso de limpieza, normalización y procesamiento de las bases de datos provenientes de las distintas pruebas aplicadas, garantizando información confiable para un proceso de evaluación docente transparente.",
                     "url": "https://ideice.gob.do/programas/evaluacion-del-desempeno-docente",
                     "technologies": [
                         "C#",
